@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:azure;
+    gap: 10rem;
+    background-image:url(stock-and-graph-design-background-business-graph-banner-design-eps10-illustration-free-vector.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+}
+
+.icons{
+   
+
+    display: flex;
+    flex-direction: column;
+    min-height:70vh ;
+    min-width: 14vw;
+    justify-content: space-between;
+    color:darkturquoise;
+}
+.icons .even{
+    margin-left: 7rem;
+}
+.icons i{
+    font-size: 6rem;
+    margin-left: 1rem;
+    text-shadow: 4px 4px 5px  gray;
+}
+
+.converter {
+
+background-color:cyan;
+min-height: 45vh;
+width: 50vh;
+padding: 2rem;
+border-radius: 2rem;
+box-shadow:6px 6px 12px grey;
+
+
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    border:1px lightgray
+}
+
+form input{
+    font-size: 1.3rem;
+    height: 2.3rem;
+    padding-left: 0.5rem;
+}
+
+.container img{
+    max-width: 2rem;
+}
+
+.dropdown i{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.container{display: flex;
+justify-content: center;
+align-items: center;
+width: 6rem;
+
+
+}
+
+.msg{
+margin: 2rem 0 2rem 0;
+font-size: 2rem;
+}
+
+form button{
+    height: 3rem;
+    background-color: coral;
+    color: black;
+    cursor: pointer;
+}
